@@ -29,8 +29,7 @@ This project investigates the use of autoencoders as communication systems, trai
 
 ## 🧪 Experiments
 
-- Trained models with \(\frac{E_b}{N_0} = 7\,\mathrm{dB}\)
- over AWGN channel
+- Trained models with Eb/N0 = 7 dB over AWGN channel
 - Used **fixed power** and **average power** normalization strategies
 - Evaluated using **Block Error Rate (BLER)** over varying SNR
 - Visualized **constellations** and **validation loss** across setups
