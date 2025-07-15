@@ -23,13 +23,14 @@ This project investigates the use of autoencoders as communication systems, trai
 | File | Description |
 |------|-------------|
 | `Autoencoder_Sionna.ipynb` | Implements the baseline autoencoder model using AWGN channel. Includes training and BLER evaluation. |
-| `Autoencoder_RTN_Receiver_Sionna.ipynb` | Adds a Transformer-based receiver network. |
+| `Autoencoder_RTN_Receiver_Sionna.ipynb` | Adds a Radio Transformer Network receiver|
 
 ---
 
 ## 🧪 Experiments
 
-- Trained models with \(E_b/N_0 = 7\, \text{dB}\) over AWGN channel
+- Trained models with \(E_b/N_0 = 7\, \mathrm{dB}\)
+ over AWGN channel
 - Used **fixed power** and **average power** normalization strategies
 - Evaluated using **Block Error Rate (BLER)** over varying SNR
 - Visualized **constellations** and **validation loss** across setups
